@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .object {
+      width: 150px;
+      height: 150px;
+      position: relative;
+      background: #000;
+      border-radius: 50%;
+      -webkit-animation: objectmove 5s infinite;
+      animation: objectmove 5s infinite;
+    }
+
+    @-webkit-keyframes objectmove{
+      0%    {top: 0px; left: 0px; background: red;}
+      25%   {top: 0px; left: 300px; background: yellow;}
+      50%   {top: 300px; left: 300px; background: green;}
+      75%   {top: 300px; left: 0px; background: blue;}
+      100%  {top: 0px; left: 0px; background: red;}
+    }
+
+    @-webkit-keyframes objectmove{
+      0%    {top: 0px; left: 0px; background: red;}
+      25%   {top: 0px; left: 300px; background: yellow;}
+      50%   {top: 300px; left: 300px; background: green;}
+      75%   {top: 300px; left: 0px; background: blue;}
+      100%  {top: 0px; left: 0px; background: red;}
+    }
+  </style>
+</head>
+<body>
+  <div class="object">
+  
+  </div>
+</body>
+</html>
